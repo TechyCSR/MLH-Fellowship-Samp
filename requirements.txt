@@ -1,0 +1,12 @@
+
+g4f[all]
+python-dotenv>=1.0.0
+Pyrogram>=2.0
+aiohttp
+pytz
+soundfile==0.12.1
+SpeechRecognition==3.10.0
+gTTS==2.3.2
+emoji
+requests
+numpy
