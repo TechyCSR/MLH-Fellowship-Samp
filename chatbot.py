@@ -1,5 +1,5 @@
 
-#  @Author: TechyCSR 
+#  Author: @TechyCSR 
 
 # Importing required libraries
 
