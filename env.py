@@ -1,4 +1,4 @@
-# @Author: TechyCSR
+# Author: @TechyCSR
 # This is the environment file for the project
 
 API_ID=8490973 # Telegram API ID
