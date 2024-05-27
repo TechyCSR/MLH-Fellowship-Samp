@@ -24,7 +24,11 @@ TOKEN = env.Token
 STCLOGO = env.STCLOGO
 OCR_KEY =  env.OCR_KEY
 
+
+#Optional Vars/texts
+
 waitext = "ᴡᴀɪᴛ..ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ʀᴇꜱᴘᴏɴꜱᴇ ᴀꜱᴀᴘ"
+
 
 # Welcome caption
 WELCOME_CAPTION = """
@@ -40,6 +44,14 @@ WELCOME_CAPTION = """
 
 **ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴄꜱʀ](https://projects.techycsr.tech)**
 """
+
+
+
+
+
+
+
+
 
 # Initialize clients
 chtwblock = Client("Session1Chatbotx", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
@@ -499,12 +511,12 @@ There are the following terms and conditions :
 
 10. ᴄᴏɴᴛᴀᴄᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴꜱ ᴀʙᴏᴜᴛ ᴛʜɪꜱ ᴀɢʀᴇᴇᴍᴇɴᴛ, ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴘʀᴏᴠɪᴅᴇʀ ᴀᴛ ᴀᴅᴠᴀɴᴄᴇ ᴄʜᴀᴛ ɢʀᴏᴜᴘ .  ʙʏ ᴜꜱɪɴɢ ᴛʜᴇ ʙᴏᴛ, ʏᴏᴜ ᴀɢʀᴇᴇ ᴛᴏ ʙᴇ ʙᴏᴜɴᴅ ʙʏ ᴛʜᴇꜱᴇ ᴛᴇʀᴍꜱ ᴀɴᴅ ᴄᴏɴᴅɪᴛɪᴏɴꜱ. ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ᴀɢʀᴇᴇ ᴛᴏ ᴛʜᴇꜱᴇ ᴛᴇʀᴍꜱ ᴀɴᴅ ᴄᴏɴᴅɪᴛɪᴏɴꜱ, ʏᴏᴜ ꜱʜᴏᴜʟᴅ ɴᴏᴛ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ.  
 
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ᴄʜᴀᴛɢᴘᴛ-4 ᴀɴᴅ ᴍɪɴᴅᴊᴏᴜʀɴᴇʏ
 ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ : [ᴄꜱʀ](https://techycsr.tech)
 """
   url = "https://projects.techyscr.tech"
   
   keyboard = InlineKeyboardMarkup([
+    
     [InlineKeyboardButton("ᴄꜱʀ", url=url)],
   ])
   await bot.send_message(chat_id=update.chat.id, text=f"**{term_text}**", reply_markup=keyboard,disable_web_page_preview=True)
